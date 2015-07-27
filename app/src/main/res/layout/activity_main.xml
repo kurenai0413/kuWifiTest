@@ -34,4 +34,16 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/buttonSave"
+        android:layout_above="@+id/listView"
+        android:layout_toRightOf="@+id/buttonScan"
+        android:layout_toEndOf="@+id/buttonScan"
+        android:onClick="buttonSaveClick"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp" />
+
 </RelativeLayout>
